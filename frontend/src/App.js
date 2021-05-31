@@ -19,7 +19,7 @@ function App(props) {
         </div>
       </header>
       <main>
-      <Route path='/product/:id' component={ProductScreen} exact/>
+      <Route path='/product/:id' component={ProductScreen}/>
       <Route path='/' component={HomeScreen} exact/>
       </main>
       <footer className="row center">All right reserved</footer>
@@ -29,4 +29,3 @@ function App(props) {
 }
 
 export default App;
-

@@ -103,6 +103,7 @@ a.brand {
   align-items: center;
 }
 .row.center {
+  padding: 20px;
   justify-content: center;
 }
 .row.center{
